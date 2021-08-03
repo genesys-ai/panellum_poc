@@ -1,0 +1,11 @@
+{
+    "type": "cubemap",
+    "cubeMap": [
+        "/faces_low_resolution/CC_13042016_153825541_31659_4096x2048_122_f.jpg",
+        "/faces_low_resolution/CC_13042016_153825541_31659_4096x2048_122_r.jpg",
+        "/faces_low_resolution/CC_13042016_153825541_31659_4096x2048_122_b.jpg",
+        "/faces_low_resolution/CC_13042016_153825541_31659_4096x2048_122_l.jpg",
+        "/faces_low_resolution/CC_13042016_153825541_31659_4096x2048_122_u.jpg",
+        "/faces_low_resolution/CC_13042016_153825541_31659_4096x2048_122_d.jpg",
+    ]
+}
