@@ -32,7 +32,7 @@ const v = pannellum.viewer('panorama', {
 });
 
 // https://github.com/mpetroff/pannellum/issues/1019
-v.on('animatefinished', (e)=>{console.log('currentYaw', v.getYaw())})
+v.on('animatefinished', (e)=>{console.log('current:', e)})
 </script>
 
 </body>
