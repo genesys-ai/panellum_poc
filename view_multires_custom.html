@@ -17,7 +17,7 @@
 
 <div id="panorama"></div>
 <script>
-pannellum.viewer('panorama', {
+const v = pannellum.viewer('panorama', {
     "type": "multires",
     "hfov": 100.0,
     "multiRes": {
@@ -30,6 +30,8 @@ pannellum.viewer('panorama', {
         "cubeResolution": 2984
     }
 });
+
+v.on('animatefinished', (e)=>{console.log('currentYaw', v.getYaw())})
 </script>
 
 </body>
