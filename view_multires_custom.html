@@ -16,24 +16,7 @@
 <body>
 
 <div id="panorama"></div>
-<script>
-const v = pannellum.viewer('panorama', {
-    "type": "multires",
-    "hfov": 100.0,
-    "multiRes": {
-        "basePath": "assets/images/multires_pano94",
-        "path": "/%l/%s%y_%x",
-        "fallbackPath": "/fallback/%s",
-        "extension": "jpg",
-        "tileResolution": 512,
-        "maxLevel": 4,
-        "cubeResolution": 2984
-    }
-});
 
-// https://github.com/mpetroff/pannellum/issues/1019
-v.on('animatefinished', (e)=>{console.log('current:', e)})
-</script>
-
+<script src="./view_multires_custom.js"></script>
 </body>
 </html>
